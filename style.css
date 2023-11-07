@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=News+Cycle&family=Outfit:wght@400;700&family=Ubuntu&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(218, 7%, 69%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  
+  body {
+  
+    min-height: 100vh;
+    background-color: var(--Light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 320px;
+    padding: 16px;
+    border-radius: 19px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .card > img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.4rem;
+    color: var(--Dark-blue)
+  }
+
+m .para {
+    color: var(--Grayish-blue);
+    width: 13.8rem;
+    margin-bottom: 20px;
+
+  } 
