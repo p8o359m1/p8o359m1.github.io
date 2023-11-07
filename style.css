@@ -3,7 +3,7 @@
 :root {
     --White: hsl(0, 0%, 100%);
     --Light-gray: hsl(212, 45%, 89%);
-    --Grayish-blue: hsl(218, 7%, 69%);
+    --Grayish-blue: hsl(220, 10%, 58%);
     --Dark-blue: hsl(218, 44%, 22%);
 }
 
@@ -47,8 +47,8 @@ body {
   
 .title {
     text-align: center;
-    margin: 20px 0;
-    font-size: 1.4rem;
+    margin: 22px 0;
+    font-size: 1.3rem;
     color: var(--Dark-blue)
 }
 
@@ -57,7 +57,7 @@ body {
     width: 16.1rem;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
    
 } 
 
